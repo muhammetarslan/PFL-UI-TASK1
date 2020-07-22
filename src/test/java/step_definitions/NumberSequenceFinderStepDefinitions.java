@@ -8,6 +8,7 @@ import utils.DriverFactory;
 
 import static org.junit.Assert.assertEquals;
 
+
 public class NumberSequenceFinderStepDefinitions {
 
     private final NumberSequenceFinderPage numberSequenceFinderPage=new NumberSequenceFinderPage();

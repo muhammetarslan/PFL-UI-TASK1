@@ -8,7 +8,7 @@ import io.cucumber.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions(
     glue ="step_definitions",
-    features = "src/test/java/features",
+    features = "src/test/resources",
     dryRun = false,
     tags = "@numbersequencefinder",
     plugin ={
